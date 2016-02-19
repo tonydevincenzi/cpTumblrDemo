@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA0BECB31C77B5F800F1FFF4 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0BECB11C77B5F800F1FFF4 /* FadeTransition.swift */; };
+		EA0BECB41C77B5F800F1FFF4 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0BECB21C77B5F800F1FFF4 /* BaseTransition.swift */; };
+		EA0BECB61C77BA0500F1FFF4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0BECB51C77BA0500F1FFF4 /* LoginViewController.swift */; };
 		EA4014E21C76959D00C7B980 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4014E11C76959D00C7B980 /* AppDelegate.swift */; };
 		EA4014E41C76959D00C7B980 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4014E31C76959D00C7B980 /* ViewController.swift */; };
 		EA4014E71C76959D00C7B980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4014E51C76959D00C7B980 /* Main.storyboard */; };
@@ -14,6 +17,11 @@
 		EA4014EC1C76959D00C7B980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4014EA1C76959D00C7B980 /* LaunchScreen.storyboard */; };
 		EA4014F71C76959D00C7B980 /* cpTumblrDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4014F61C76959D00C7B980 /* cpTumblrDemoTests.swift */; };
 		EA4015021C76959D00C7B980 /* cpTumblrDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4015011C76959D00C7B980 /* cpTumblrDemoUITests.swift */; };
+		EA4015101C779FC900C7B980 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA40150F1C779FC900C7B980 /* HomeViewController.swift */; };
+		EA4015121C77A08C00C7B980 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4015111C77A08C00C7B980 /* SearchViewController.swift */; };
+		EA4015141C77A1C800C7B980 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4015131C77A1C800C7B980 /* ComposeViewController.swift */; };
+		EA4015161C77A20200C7B980 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4015151C77A20200C7B980 /* AccountViewController.swift */; };
+		EA4015181C77A22600C7B980 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4015171C77A22600C7B980 /* TrendingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA0BECB11C77B5F800F1FFF4 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		EA0BECB21C77B5F800F1FFF4 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		EA0BECB51C77BA0500F1FFF4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EA4014DE1C76959D00C7B980 /* cpTumblrDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cpTumblrDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4014E11C76959D00C7B980 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA4014E31C76959D00C7B980 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,11 @@
 		EA4014FD1C76959D00C7B980 /* cpTumblrDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cpTumblrDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4015011C76959D00C7B980 /* cpTumblrDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cpTumblrDemoUITests.swift; sourceTree = "<group>"; };
 		EA4015031C76959D00C7B980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA40150F1C779FC900C7B980 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EA4015111C77A08C00C7B980 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		EA4015131C77A1C800C7B980 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		EA4015151C77A20200C7B980 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		EA4015171C77A22600C7B980 /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +93,7 @@
 		EA4014D51C76959D00C7B980 = {
 			isa = PBXGroup;
 			children = (
+				EA0BECB51C77BA0500F1FFF4 /* LoginViewController.swift */,
 				EA4014E01C76959D00C7B980 /* cpTumblrDemo */,
 				EA4014F51C76959D00C7B980 /* cpTumblrDemoTests */,
 				EA4015001C76959D00C7B980 /* cpTumblrDemoUITests */,
@@ -97,9 +114,16 @@
 		EA4014E01C76959D00C7B980 /* cpTumblrDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EA0BECB11C77B5F800F1FFF4 /* FadeTransition.swift */,
+				EA0BECB21C77B5F800F1FFF4 /* BaseTransition.swift */,
 				EA4014E11C76959D00C7B980 /* AppDelegate.swift */,
 				EA4014E31C76959D00C7B980 /* ViewController.swift */,
 				EA4014E51C76959D00C7B980 /* Main.storyboard */,
+				EA4015171C77A22600C7B980 /* TrendingViewController.swift */,
+				EA4015151C77A20200C7B980 /* AccountViewController.swift */,
+				EA4015131C77A1C800C7B980 /* ComposeViewController.swift */,
+				EA4015111C77A08C00C7B980 /* SearchViewController.swift */,
+				EA40150F1C779FC900C7B980 /* HomeViewController.swift */,
 				EA4014E81C76959D00C7B980 /* Assets.xcassets */,
 				EA4014EA1C76959D00C7B980 /* LaunchScreen.storyboard */,
 				EA4014ED1C76959D00C7B980 /* Info.plist */,
@@ -259,8 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4015181C77A22600C7B980 /* TrendingViewController.swift in Sources */,
+				EA4015141C77A1C800C7B980 /* ComposeViewController.swift in Sources */,
+				EA0BECB31C77B5F800F1FFF4 /* FadeTransition.swift in Sources */,
 				EA4014E41C76959D00C7B980 /* ViewController.swift in Sources */,
+				EA0BECB41C77B5F800F1FFF4 /* BaseTransition.swift in Sources */,
+				EA4015161C77A20200C7B980 /* AccountViewController.swift in Sources */,
 				EA4014E21C76959D00C7B980 /* AppDelegate.swift in Sources */,
+				EA4015121C77A08C00C7B980 /* SearchViewController.swift in Sources */,
+				EA0BECB61C77BA0500F1FFF4 /* LoginViewController.swift in Sources */,
+				EA4015101C779FC900C7B980 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +519,7 @@
 				EA4015081C76959D00C7B980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA4015091C76959D00C7B980 /* Build configuration list for PBXNativeTarget "cpTumblrDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +528,7 @@
 				EA40150B1C76959D00C7B980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA40150C1C76959D00C7B980 /* Build configuration list for PBXNativeTarget "cpTumblrDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +537,7 @@
 				EA40150E1C76959D00C7B980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
